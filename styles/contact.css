@@ -1,0 +1,21 @@
+.container.contact{
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 40px;
+}
+.container.contact label{
+    display:block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+.container.contact input,textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding-inline: 5px;
+    outline: none;
+}
+.container.contact textarea{
+    height: initial;
+}

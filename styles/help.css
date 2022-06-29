@@ -1,0 +1,43 @@
+.help-container{
+    padding-top:30px;
+    box-sizing: border-box;
+}
+
+.help-container h1{
+    margin-top:0;
+}
+
+.accordion-container{
+    border-bottom: 0;
+    margin-bottom: 30px;
+}
+.accordion-container .accordion-header{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+.accordion-header img{
+    width: 15px;
+}
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.accordion-body {
+    display: none;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ccc;
+}
+.accordion-item.active .accordion-body{
+    display:block;
+}
+.accordion-item.active .accordion-header img{
+    transform: rotate(180deg)
+}
+.accordion-header:hover{
+    background-color: rgb(228, 227, 227);
+    border: none;
+}

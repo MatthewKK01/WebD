@@ -1,0 +1,14 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, td{
+    border:1px solid black;
+    padding: 5px 15px;
+}
+table th{
+    text-align: start;
+}
+tbody tr:nth-child(odd){
+    background-color: aqua;
+}
